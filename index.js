@@ -13,6 +13,10 @@ function Phrase(content) {
   this.processedContent = function processedContent() {
     return this.content.toLowerCase();
   }
+  // Returns the letters in the content.
+  this.letters = function letters() {
+    return this.content; // stub return value
+  }
 
   // Returns true if the phrase is a palindrome, false otherwise.
   this.palindrome = function palindrome() {
