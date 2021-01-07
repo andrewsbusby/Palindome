@@ -17,7 +17,7 @@ describe("Phrase", function() {
         });
         it("should return true for a palindrome with punctuation", funtion() {
             let punctuatedPalindrome = new Phrase("Madam, I'm Adam."),
-            assert(_punctuatedPalindrome.palindrome());
+            assert(punctuatedPalindrome.palindrome());
         });
         
     });
